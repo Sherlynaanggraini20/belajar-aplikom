@@ -38,6 +38,27 @@
 
       <ion-item>
         <ion-label>
+          <p>Tumpeng </p>
+        </ion-label>
+        <ion-select [(ngModel)]="_dataK.Tumpeng" >
+          <ion-select-option value="Ceremony">Ceremony</ion-select-option>
+          <ion-select-option value="7 Bulanan">7 bulanan</ion-select-option>
+          <ion-select-option value="Pungkur">Pungkur</ion-select-option>
+          <ion-select-option value="Robyong">Robyong</ion-select-option>
+        </ion-select>
+        <ion-label>
+          <p>Nasi </p>
+        </ion-label>
+        <ion-select [(ngModel)]="_dataK.Nasi" >
+          <ion-select-option value="Uduk">Uduk</ion-select-option>
+          <ion-select-option value="Kuning">Kuning</ion-select-option>
+          <ion-select-option value="Putih">Putih</ion-select-option>
+          <ion-select-option value="Merah">Merah</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>
           <p>Sayur </p>
         </ion-label>
         <ion-select [(ngModel)]="_dataK.sayur">
@@ -98,3 +119,4 @@
 
 
   </ion-content>
+  
